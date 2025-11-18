@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="theme-toggle-container">
+                <label class="theme-toggle">
+                    <input type="checkbox" id="theme-switch">
+                    <div class="toggle-track">
+                        <div class="toggle-circle">
+                            <svg class="toggle-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                            <svg class="toggle-icon moon-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <button class="hamburger" id="hamburger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+
+        <nav class="navbar" id="navbar">
+            <ul class="nav-list">
+                <li><a href="#tentang" class="nav-link active">Tentang</a></li>
+                <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+                <li><a href="#pengalaman" class="nav-link">Pengalaman</a></li>
+                <li><a href="#pendidikan" class="nav-link">Pendidikan</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section id="tentang" class="profile-section">
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <img src="IMG-20220225-WA0003.jpg" alt="Profile Picture" class="profile-image">
+                        <div class="profile-text">
+                            <h1 class="profile-title">Hi, Saya <span class="highlight">Diaz Bintang Ramadhan</span></h1>
+                            <p class="profile-subtitle">Biodata Pribadi</p>
+                        </div>
+                    </div>
+
+                    <div class="biodata-container">
+                        <div class="biodata-item">
+                            <span class="biodata-label">NPM:</span>
+                            <span class="biodata-value">202433500296</span>
+                        </div>
+                        <div class="biodata-item">
+                            <span class="biodata-label">Nama:</span>
+                            <span class="biodata-value">Diaz Bintang Ramadhan</span>
+                        </div>
+                        <div class="biodata-item">
+                            <span class="biodata-label">Alamat:</span>
+                            <span class="biodata-value">Villa Dayeuh,Cileungsi,Bogor</span>
+                        </div>
+                        <div class="biodata-item">
+                            <span class="biodata-label">No. Telp:</span>
+                            <span class="biodata-value">0895330417612</span>
+                        </div>
+                        <div class="biodata-item">
+                            <span class="biodata-label">Agama:</span>
+                            <span class="biodata-value">Islam</span>
+                        </div>
+                        <div class="biodata-item">
+                            <span class="biodata-label">Jenis Kelamin:</span>
+                            <span class="biodata-value">Laki-laki</span>
+                        </div>
+                        <div class="biodata-item">
+                            <span class="biodata-label">Universitas:</span>
+                            <span class="biodata-value">Universitas Indraprasta PGRI</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="keahlian" class="content-section hidden">
+                <h2>Keahlian</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML & CSS</h3>
+                        <p>Pembuatan website responsif dengan HTML dan CSS modern.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Pengembangan aplikasi web interaktif dengan JavaScript.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>PHP</h3>
+                        <p>Pengembangan website backend dengan PHP.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pengalaman" class="content-section hidden">
+                <h2>Pengalaman</h2>
+                    <div class="experience-item">
+                        <h3>UI/UX</h3>
+                        <p class="experience-period">2024 - Sekarang</p>
+                        <p>Membangun dan mengembangkan website e-commerce.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pendidikan" class="content-section hidden">
+                <h2>Pendidikan</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3>Sarjana Komputer</h3>
+                        <p class="education-school">Universitas Indraprasta PGRI</p>
+                        <p class="education-period">2024 - 2029</p>
+                        <p>Program Studi Sistem Informasi</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>SMAN 2 Cileungsi</h3>
+                        <p class="education-school">Bogor</p>
+                        <p class="education-period">2021 - 2024</p>
+                        <p>Sekolah Menengah Atas dengan jurusan IPA.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
